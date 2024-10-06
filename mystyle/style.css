@@ -1,0 +1,326 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+#wrapper{
+    width: auto;
+   
+    background-image: linear-gradient(to top,  rgba(7, 51, 99, 0.808) ,rgba(28, 84, 61, 0.879));
+}
+#header{
+    width: auto;
+    height: 100px;
+    background-color: rgba(5, 49, 22, 0.5);
+   
+}
+#logo_container{
+    width: 250px;
+    height: 100px;
+   
+    float: left;
+}
+#nav_container{
+    float: left;
+    padding-top: 40px;
+    font-size: 25px;
+    padding-left: 250px;
+    
+
+}
+#nav_container a{
+    padding-left: 30px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    
+
+}
+#nav_container a:hover{
+    color: blue;
+
+}
+#logo_container img{
+    width: 250px;
+    height: 100px;
+   
+}
+
+#h1_container{
+    color: white;
+    margin-left: 200px;
+    float: left;
+    width: 500px;
+    margin-top: 250px;
+    
+}
+
+#h1_container p{
+    font-size: 30px;
+    padding-left: 200px ;
+}
+
+#h1_container h1{
+    font-size: 50px;
+
+}
+
+#h1_container span{
+    font-size: 30px;
+    padding-left: 100px;
+    
+}
+#picture_container{
+    margin-top: 120px;
+    float: left;
+    margin-left: 50px;
+}
+
+#picture_container img{
+    border-radius: 50%;
+}
+#h1_container button{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: rgb(8, 85, 37);
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+#h1_container button:hover{
+    background-color: rgba(34, 191, 94);
+
+}
+
+#img_container{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+#img_container img{
+    width: 400px;
+    height: 450px;
+    float: left;
+}
+#h1_about{
+    position:absolute;
+    color: rgb(202, 195, 195);
+    font-size: 130px;
+    margin-left: 550px;
+    top: 10px;
+
+}
+#about_container{
+    float: left;
+    color: white;
+    margin-left: 100px;
+}
+#span1{
+    color: rgb(8, 85, 37);
+    font-size: 40px;
+}
+
+#span2{
+    font-size: 30px;
+
+}
+#para_container{
+    width: 700px;
+}
+#para_container p{
+    color: rgb(202, 195, 195);
+    
+}
+
+#Information span{
+    margin-top: 50px;
+}
+
+#project_container h1{
+    position:absolute;
+    color: rgb(202, 195, 195);
+    font-size: 50px;
+    margin-left: 550px;
+    top: 100px;
+}
+#img-container {
+    margin-top: 100px; 
+    margin-left:100px ;
+}
+#img-container img{
+    width: 350px;
+    height: 350px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+#content{
+    width: auto;
+    height: 800px;
+}
+#content-1{
+    color: rgb(202, 195, 195);
+    margin-left: 300px;
+    margin-top: 50px;
+    float: left;
+   
+   
+}
+#content-1 input{
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    display: block;
+    background-color: black;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    color: white;
+    
+}
+#content-1 button{
+    margin-top: 50px;
+    width: 400px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+#content-1 button:hover{
+    background-color: rgb(9, 63, 30);
+    cursor: pointer;
+    
+
+}
+#contact_container h1{
+    color: rgb(202, 195, 195);
+    font-size: 50px;
+    margin-left: 600px;
+}
+
+#content-2{
+    font-size: 20px;
+    margin-top: 55px;
+    margin-right: 250px;
+    width: 350px;
+    color: rgb(202, 195, 195);
+    float: right;
+}
+#a_container a{
+    font-size: 30px;
+    text-decoration: none;
+}
+#footer{
+    margin-top: 150px;
+    height: 100px;
+    width: auto;
+    background-color: rgba(15, 15, 15, 0.5);
+    margin: 0;
+    padding: 0;
+   
+    
+}
+#copy{
+    height: 100px;
+    width: 500px;
+    text-align: center;
+    color: rgba(165, 162, 162, 0.775);
+   
+    float: left;
+    
+}
+#copy p{
+    font-size: 20px;
+    
+
+}
+#copy a{
+    color:rgba(165, 162, 162, 0.775) ;
+    text-decoration: none;
+}
+#copy a:hover{
+    color:blue;
+}
+#icon{
+    float: left;
+    font-size: 30px;
+    margin-left: 100px;
+    color: rgba(0, 255, 255, 0.495);
+    margin-top: 30px;
+}
+#icon i{
+    padding-right: 50px;
+}
+#content_container2{
+    height: 600px;
+    width: auto;
+}
+#contact_container{
+    height: 600px;
+    width: auto;
+}
+#skill_container{
+    height: 700px;
+    width: auto;
+    
+}
+#skill_container h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(202, 195, 195);
+}
+#skill{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(156, 154, 154, 0.542);
+    float: left;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+#skill h2{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.542);
+}
+#skill img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+#hobby-container{
+    width: auto;
+    height: 1800px;
+}
+#hobby-container h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(202, 195, 195);
+}
+#egames{
+    margin-left: 100px;
+    width: 1300px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.427);
+    border-radius: 30px;
+    margin-top: 50px;
+}
+#egames h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgba(195, 198, 201, 0.819);
+}
+#egames img{
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+    border-radius: 30px;
+    opacity: 0.7;
+
+}
+
+
+ 
